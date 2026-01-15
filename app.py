@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
+
 st.title("favorite things class ")
+
 if "colors" not in st.session_state:
    st.session_state.colors = {
    "Червен": 0,
