@@ -9,7 +9,7 @@ if "colors" not in st.session_state:
     "Жълт": 0
 }
 if "sports" not in st.session_state:
-   st.session_state.sports {
+   st.session_state.sports = {
     "Футбол": 0,
     "Баскетбол": 0,
     "Волейбол": 0,
